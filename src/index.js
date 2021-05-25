@@ -1,7 +1,7 @@
 import "./styles.css";
 
 const onClickAdd = () => {
-  // ToDo入力を抽出、ブランクする
+  // ToDo入力を抽出、ブランクとする
   const inputText = document.getElementById("add-text").value;
   document.getElementById("add-text").value = "";
 
